@@ -3,8 +3,6 @@ const gallery = document.querySelector(".slider__gallery");
 const imgWidth = document.querySelector("img").width;
 let currentImgNumber = Number(document.querySelector("input:checked").value);
 
-// set title
-
 const moveSlider = (direction) => {
   if (direction === "left") {
     gallery.scrollLeft = imgWidth * currentImgNumber;

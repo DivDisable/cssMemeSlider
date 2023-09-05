@@ -32,7 +32,6 @@ img {
 }
 
 .slider {
-	position: relative;
 	display: flex;
 	width: 300px;
 	padding: 1em 2em;
@@ -64,14 +63,22 @@ img {
 }
 
 .slider__control-panel {
-	position: absolute;
-	bottom: calc(1em + 15px);
-	left: 50%;
-	transform: translateX(-50%);
 }
 
 .slider__gallery img {
-	display: block;
-	margin-bottom: 30px;
 	border-radius: 10px;
+}
+
+.slider__title {
+	color: white;
+	opacity: 1;
+	transition: opacity 0.2s;
+}
+
+.opacity-0 {
+	opacity: 0;
+}
+
+.opacity-1 {
+	opacity: 1;
 }

@@ -8,9 +8,10 @@ const titles = [
   "capitalism",
   "karl marx",
   "html vs html + css",
-  "illusion of choice"
+  "wanna on the next rs stage"
 ];
 
+// set initial slider title
 sliderTitle.innerHTML = titles[currentImgNumber];
 
 const hideSliderTitle = () => {

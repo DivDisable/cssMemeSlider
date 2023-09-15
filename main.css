@@ -51,7 +51,7 @@ input {
 	border-radius: 50%;
 }
 
-.checkmark:after {
+.checkmark::after {
 	display: none;
 	transform: translate(50%, 50%);
 	content: '';
@@ -98,7 +98,7 @@ img {
 
 .slider__control-panel {
 	display: flex;
-	gap: 5px;
+	gap: 0.1em;
   align-self: center;
 }
 

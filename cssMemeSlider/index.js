@@ -8,7 +8,8 @@ const titles = [
   "capitalism",
   "karl marx",
   "html vs html + css",
-  "wanna on the next rs stage"
+  "wanna on the next rs stage",
+  "technology"
 ];
 
 // set initial slider title
